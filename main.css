@@ -119,16 +119,18 @@ html {
   margin-bottom: 155px;
 }
 .footer {
-  left: calc(50% - 150px);
-  padding-bottom: 24px;
-  text-align: center;
-  font-family: monospace;
-  font-size: 1.4rem;
-  font-weight: 500;
-  color: var(--color-gray-footer);
+  display: flex;
 }
 .footer a {
   font-weight: 700;
   text-decoration: none;
   color: #a09e9e;
+}
+.footer__text {
+  margin: auto;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-gray-footer);
 }
